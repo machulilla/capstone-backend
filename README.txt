@@ -6,7 +6,4 @@
 
 4. 터미널에 npm run dev 를 입력하여 서버를 켜주세요.
 
-5. sample.txt 파일 안에 분석하고 싶은 글들을 넣어보세요.
-
-6. 4번에서 서버를 켰다면 test.http 파일을 열고, GET http://localhost:3000/api/test-local-text 코드 왼쪽의 초록색 재생 버튼을 누르면 결과가 출력됩니다.
-
+5. 서버가 켜졌다면 터미널을 하나 더 띄워 curl.exe -X POST http://127.0.0.1:3000/api/analyze-paper -H "Content-Type: application/json" --data-binary "@test.json" 를 입력해주세요.

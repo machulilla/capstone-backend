@@ -1,0 +1,4 @@
+{
+  "docId": "test_paper",
+  "paperText": "Transformer models handle sequence transduction without using recurrent layers, relying entirely on self-attention mechanisms to compute representations of input and output. In experiments, this approach achieves state-of-the-art BLEU scores on translation tasks while being significantly more parallelizable."
+}
